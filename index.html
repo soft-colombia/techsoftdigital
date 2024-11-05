@@ -30,10 +30,10 @@
     <form 
         action=https://formspree.io/f/mnnqqkdp method="POST" id="formulario"> 
         <h2>Formulario de descarga Digi</h2>
-        <input type="text" name="Nombre"  placeholder="Nombre Notario"><br>
+        <input type="text" name="Nombre"  placeholder="Nombre Completo del Notario(a)"><br>
         <input type="text" name="Notaria" placeholder="Nombre Notaría"><br>
         <label for="departamento">Seleccione el departamento:</label><br>
-        <select id="departamento" name="departamento" onchange="actualizarMunicipios()">
+        <select id="departamento" name="Departamento" onchange="actualizarMunicipios()">
             <option value="">--Seleccione un departamento--</option>
             <option value="Amazonas">Amazonas</option>
             <option value="Antioquia">Antioquia</option>
@@ -78,7 +78,7 @@
 
         </select><br>
             <label for="departamento">Seleccione la ciudad o municipio:</label><br>
-            <select id="municipio" name="municipio">
+            <select id="municipio" name="Municipio">
             <option value="">--Seleccione un municipio--</option>
         </select><br>
         <input type="email" name="email"  placeholder=" Correo electrónico"><br>
