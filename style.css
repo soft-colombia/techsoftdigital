@@ -13,7 +13,7 @@
 }
 
 .menu-navegacion a {
-    color: blue;
+    color: red;
     text-decoration: none;
     display: block;
     padding: 10px;
@@ -22,7 +22,7 @@
     background-color: lightblue;
 }
 form {
-    background-color: red  ; /* White background for form */
+    background-color: green  ; /* White background for form */
     padding: 20px;
     text-align: center;
 }
